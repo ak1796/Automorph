@@ -1,0 +1,28 @@
+{
+  "name": "automorph-ai-backend",
+  "version": "1.0.0",
+  "description": "AutoMorph AI - Express & MongoDB REST API Service",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "automorph-ai",
+    "rest-api"
+  ],
+  "author": "AutoMorph AI Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0"
+  }
+}

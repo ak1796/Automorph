@@ -1,0 +1,50 @@
+{
+  "target": "acceleration (0-60 mph in seconds)",
+  "dataset": "auto-mpg.csv",
+  "train_samples": 318,
+  "test_samples": 80,
+  "features": [
+    "cylinders",
+    "displacement",
+    "horsepower",
+    "weight",
+    "model year",
+    "origin",
+    "power_to_weight",
+    "weight_per_hp",
+    "displacement_per_cylinder"
+  ],
+  "best_model": "Gradient Boosting",
+  "model_evaluations": [
+    {
+      "model": "Linear Regression",
+      "mae_seconds": 1.1107,
+      "rmse_seconds": 1.4456,
+      "r2_score": 0.7168
+    },
+    {
+      "model": "Ridge Regression",
+      "mae_seconds": 1.1124,
+      "rmse_seconds": 1.4448,
+      "r2_score": 0.7172
+    },
+    {
+      "model": "Decision Tree",
+      "mae_seconds": 1.2942,
+      "rmse_seconds": 1.7112,
+      "r2_score": 0.6033
+    },
+    {
+      "model": "Random Forest",
+      "mae_seconds": 1.1192,
+      "rmse_seconds": 1.5542,
+      "r2_score": 0.6727
+    },
+    {
+      "model": "Gradient Boosting",
+      "mae_seconds": 1.0477,
+      "rmse_seconds": 1.4062,
+      "r2_score": 0.7321
+    }
+  ]
+}
